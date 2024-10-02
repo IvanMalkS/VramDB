@@ -1,0 +1,7 @@
+.idea
+cmake-build-debug
+kernel/cmake-build-debug
+
+.env
+
+node_modules
