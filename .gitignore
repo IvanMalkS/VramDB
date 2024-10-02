@@ -1,7 +1,9 @@
 .idea
 cmake-build-debug
 kernel/cmake-build-debug
+kernel/build
 
 .env
 
 node_modules
+api/node_modules

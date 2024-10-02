@@ -12,7 +12,7 @@ struct KeyValue {
 class GPUKeyValueDB {
 public:
     GPUKeyValueDB() {
-        // Инициализация Vulkan
+        // initializing Vulkan
         instance = createInstance();
         physicalDevice = pickPhysicalDevice(instance);
         device = createLogicalDevice(physicalDevice);
