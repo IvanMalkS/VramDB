@@ -36,27 +36,31 @@ For the best experience, build the kernel and use it in your own application. He
 2. Build the Kernel:
 
 For linux:
-    `cd kernel
+    
+    cd kernel
     mkdir build
     cd build
     cmake ..
-    make`
+    make
+    
 For windows: 
-    `cd kernel
+    
+    cd kernel
     mkdir build
     cd build
     cmake -G "Ninja" ..
     ninja
     .\VramDB.exe
-    `
+    
 
 Run the Application:
 
 For linux:
-    `./VramDB`
+    ./VramDB
     
 For windows:
-    `.\VramDB.exe`
+
+    .\VramDB.exe
 
 ### By api
 1. Clone the repository:
