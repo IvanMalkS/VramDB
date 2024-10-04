@@ -56,6 +56,7 @@ For windows:
 Run the Application:
 
 For linux:
+
     ./VramDB
     
 For windows:
